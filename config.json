@@ -5,17 +5,17 @@
     "exportFunction": "myCheckerFunction"
   },
   "general": {
-    "useResourceIntegration": false,
-    "toggleKey": "f1",
-    "toggleCommand": "phone"
+    "useResourceIntegration": true,
+    "toggleKey": "f6",
+    "toggleCommand": "telephone"
   },
   "database": {
     "useIdentifierPrefix": false,
-    "playerTable": "users",
-    "identifierColumn": "identifier",
+    "playerTable": "c_char",
+    "identifierColumn": "id_lic",
     "identifierType": "license",
     "profileQueries": true,
-    "phoneNumberColumn": "phone_number"
+    "phoneNumberColumn": "phone_num"
   },
   "images": {
     "url": "https://api.imgur.com/3/image",
@@ -60,6 +60,6 @@
   "debug": {
     "level": "silly",
     "enabled": true,
-    "sentryEnabled": true
+    "sentryEnabled": false
   }
 }
